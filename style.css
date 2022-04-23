@@ -25,6 +25,7 @@
   outline: none;
   border-radius: 5px;
   padding: 5px 0px;
+  border-color: #ccc;
 }
 .addBtn,
 .searchBtn,
@@ -37,7 +38,7 @@
   font-size: 16px;
   cursor: pointer;
   transition: 0.3s;
-  border-radius: 0;
+  border-radius: 5px;
 }
 a {
   text-decoration: none;
