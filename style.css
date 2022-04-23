@@ -1,0 +1,57 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#wrapper {
+  width: 700px;
+  height: auto;
+  background-color: #ccc;
+  margin: 0 auto;
+}
+#form_phone_book {
+  width: 100%;
+  padding: 10px 10px;
+}
+.form_group {
+  display: flex;
+  padding: 10px 10px;
+}
+.form_group input,
+.addBtn,
+.searchBtn,
+.deleteBtn {
+  margin: 10px 10px;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px 0px;
+}
+.addBtn,
+.searchBtn,
+.deleteBtn {
+  width: 100px;
+  height: 25px;
+  background: #3b17da;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+  margin: 10px 0px;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
